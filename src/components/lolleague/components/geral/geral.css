@@ -98,7 +98,10 @@
     background-repeat: no-repeat;
     background-position: 45% 0px;
     border-radius: 0px 0px 0px 10px;
-    box-shadow: -2px 2px 3px 1px rgb(0, 0, 0);;
+    box-shadow: -2px 2px 3px 1px rgb(0, 0, 0);
+    background-image: url('../../assets/ct.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .lolleague-geral-nextMatch-redteam img{
@@ -134,4 +137,21 @@
     width: 30vw;
     height: 30vh;
     background-color: red;
+}
+
+.lolleague-geral-twitch-container{
+    width: 35vw;
+    height: 30vh;
+    background-color: red;
+}
+
+.lolleague-geral-moderatorsDiv-container p{
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    top: -10px;
+}
+
+.header .css-trot39-Root .e1gp86mg0{
+    opacity: 0 !important;
 }

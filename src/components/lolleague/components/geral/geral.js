@@ -1,5 +1,6 @@
 import './geral.css'
 import { BsTwitch, BsDiscord, BsTwitter } from "react-icons/bs";
+import WidgetBot from '@widgetbot/react-embed'
 
 export default function Geral(){
     return(
@@ -37,18 +38,20 @@ export default function Geral(){
             </div>
             <div className='lolleague-geral-moderatorsDiv-container'>
                 <div>
-                    <h3>ORGANIZADORES</h3>
-                </div>
-                <div>
-                    <div>
-                        <img/><h5>Ravus#5104 - Golstar</h5>
-                    </div>
-                    <div>
-                        <img/><h5>Ensabuado#9280 - Ensabuado</h5>
-                    </div>
+                <WidgetBot
+                    server="1074484548806648000"
+                    channel="1079171316411813890"
+                    height={"30vh"}
+                    width={"100%"}
+                />
+                {/* <iframe src="https://discord.com/widget?id=1074484548806648000&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe> */}
                 </div>
             </div>
             <div className='lolleague-geral-melhoresJog-container'>
+                
+
+            </div>
+            <div className='lolleague-geral-twitch-container'>
                 
 
             </div>

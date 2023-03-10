@@ -1,0 +1,134 @@
+body{
+    background-color: #141414;
+}
+
+.bottomBar-mainDiv-container{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 55px;
+    box-shadow: 0px 0px 4px 1px #2dc096;
+    border-top: 1px solid #2dc096;
+}
+
+.bottomBar-LogoDiv-container{
+    width: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #2dc096;
+    box-shadow: 0px 3px 6px -1px #2dc096;
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+.bottomBar-LogoIMG-tag{
+    width: 62px;
+    height: 62px;
+}
+
+.bottomBar-bodyDiv-container{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+.bottomBar-thIMG-tag{
+    width: 62px;
+    height: 62px;
+}
+
+.bottomBar-navigation-ThriveLeagueBR{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 16px;
+    transition: 0.5s;
+    border-bottom: 2px solid transparent;
+    width: 20%;
+    height: 80%;
+    margin-left: 2%;
+    margin-top: 9px;
+    box-shadow: 2px -2px 4px 1px #14141400;
+    color: white;
+    border-radius: 6px 6px 0px 0px
+}
+
+.bottomBar-navigation-ThriveLeagueBR:hover{
+    background-color: #3f3f3f7a;
+    transition: 0.5s;
+    cursor: pointer;
+    border-bottom: 2px solid #2dc096;
+    box-shadow: 0px -1px 3px 0px #141414;
+}
+
+.bottomBar-navigation-ThriveLeagueNA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    padding-left: 10px;
+    padding-right: 16px;
+    transition: 0.5s;
+    border-bottom: 2px solid transparent;
+    width: 20%;
+    height: 80%;
+    margin-left: 2%;
+    margin-top: 9px;
+    box-shadow: 2px -2px 4px 1px #14141400;
+    color: white;
+    border-radius: 6px 6px 0px 0px
+}
+
+.bottomBar-navigation-ThriveLeagueNA:hover{
+    background-color: #3f3f3f7a;
+    transition: 0.5s;
+    cursor: pointer;
+    border-bottom: 2px solid #2dc096;
+    box-shadow: 0px -1px 3px 0px #141414;
+}
+
+.bottomBar-social-container{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.219);
+    border-left: 1px solid #2dc096;
+    box-shadow: 0px 3px 6px -1px #2dc096;
+    background-image: url('./assets/fus.png');
+    background-repeat: no-repeat;
+    
+}
+
+.bottomBar-social-container div{
+    margin-left: 40px;
+}
+
+
+.bottomBar-svg-twitter, .bottomBar-svg-discord, .bottomBar-svg-twitch{
+    color: #2dc096;
+    width: 40px;
+    height: 40px;
+    transition: 0.25s;
+}
+
+.bottomBar-svg-twitter:hover, .bottomBar-svg-discord:hover, .bottomBar-svg-twitch:hover{
+    color: #2d8ac0;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.bottomBar-social-timer{
+    color: white;
+    position: relative;
+    right: -5vw;
+}

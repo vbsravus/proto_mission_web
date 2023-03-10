@@ -4,6 +4,7 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
 import Home from './components/home/home'
+import Lolleague from './components/lolleague/lolleague'
 import NavBottomBar from './components/navigation_bottombar/navigation_bottombar'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,6 +16,7 @@ root.render(
           {/* <Route/>
           <Route/> */}
         </Route>
+        <Route path="/br/thrive" element={<Lolleague />}></Route>
       </Routes>
     </BrowserRouter>
 );

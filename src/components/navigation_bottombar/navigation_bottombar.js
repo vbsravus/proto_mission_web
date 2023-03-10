@@ -20,11 +20,11 @@ export default function NavBottomBar() {
 
     return(
         <div className="bottomBar-mainDiv-container">
-            <div className="bottomBar-LogoDiv-container">
+            <div className="bottomBar-LogoDiv-container" onClick={() => window.location.href = '/'}>
                 <img className='bottomBar-LogoIMG-tag' src={require('./assets/PrototypeMissionLogo.png')}/>
             </div>
             <div className="bottomBar-bodyDiv-container">
-                <div className='bottomBar-navigation-ThriveLeagueBR'>
+                <div className='bottomBar-navigation-ThriveLeagueBR'  onClick={() => window.location.href = '/br/thrive'}>
 
                     <img className='bottomBar-thIMG-tag' src={require('./assets/TH.png')}/>
                     <p>Thrive League BR</p>

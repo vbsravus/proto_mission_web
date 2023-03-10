@@ -8,16 +8,24 @@
     box-shadow: 0px 0px 4px 1px #2dc096;
     border-top: 1px solid #2dc096;
     z-index: 20;
+    font-family: "Shentox";
 }
 
 .bottomBar-LogoDiv-container{
-    width: 7%;
+    width: 5%;
     display: flex;
     align-items: center;
     justify-content: center;
     border-right: 1px solid #2dc096;
     box-shadow: 0px 3px 6px -1px #2dc096;
     background-color: rgba(0, 0, 0, 0.822);
+    transition: 0.25s;
+}
+
+.bottomBar-LogoDiv-container:hover{
+    background-color: rgba(100, 100, 100, 0.822);
+    transition: 0.25s;
+    cursor: pointer;
 }
 
 .bottomBar-LogoIMG-tag{

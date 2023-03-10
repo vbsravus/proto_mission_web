@@ -5,11 +5,11 @@ import Geral from './components/geral/geral'
 
 export default function Lolleague(params) {
     return(
-        <div>
+        <div className='lolleague-mainBody-container'>
             <div>
                 <Navbar></Navbar>
             </div>
-            <div>
+            <div className='lolleague-mainContent-container'>
                 <Geral></Geral>
             </div>
         </div>

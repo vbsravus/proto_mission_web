@@ -10,8 +10,9 @@ export default function Navbar(){
             <div className='navbar-navigationDiv-container'>
                 <h2>GERAL</h2>
                 <h2>EQUIPES</h2>
+                <h2>REGULAMENTO</h2>
                 <h2>CALENDÁRIO</h2>
-                <h2>PARTIDAS</h2>
+                <h2>RESULTADOS</h2>
             </div>
         </nav>
     )

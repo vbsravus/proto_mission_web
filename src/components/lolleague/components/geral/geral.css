@@ -1,0 +1,39 @@
+.lolleague-geral-mainDiv-container{
+    width: 100%;
+    color: white;
+}
+
+.lolleague-geral-svg-discord, .lolleague-geral-svg-twitter, .lolleague-geral-svg-twitch{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.lolleague-geral-inforDiv-container p{
+    position: absolute;
+    right: 20px;
+    font-size: 20px;
+    top: -10px;
+}
+
+.lolleague-geral-inforDiv-container{
+    position: relative;
+    width: 30vw;
+    height: 30vh;
+    background-color: rgb(22, 22, 22);
+    background-image: url('../../assets/op.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 45% 0px;
+    border-radius: 0px 0px 10px 0px;
+    box-shadow: 2px 2px 3px 1px rgb(0, 0, 0);;
+}
+.lolleague-geral-inforDiv-name{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.lolleague-geral-inforDiv-name h4{
+    margin-top: -20px;
+}

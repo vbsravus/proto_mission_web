@@ -12,10 +12,7 @@ root.render(
     <BrowserRouter>
       <NavBottomBar/>
       <Routes>
-        <Route path="/" element={<Home />}>
-          {/* <Route/>
-          <Route/> */}
-        </Route>
+        <Route path="/" element={<Home />}></Route>
         <Route path="/br/thrive" element={<Lolleague />}></Route>
       </Routes>
     </BrowserRouter>

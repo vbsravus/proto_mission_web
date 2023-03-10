@@ -12,7 +12,11 @@ export default function Home(params) {
             <div className="home-headerTitleDiv-container">
                 <div className="home-LogoDiv-container">
                     <img className='home-LogoIMG-tag' src={require('./assets/PrototypeMissionLogo.png')}/>
-                    <h1>BEM-VINDO AO PROTOTYPE MISSION</h1>
+                    <div>
+
+                        <h1>BEM-VINDO AO PROTOTYPE MISSION</h1>
+                        <h4>O LAR DA COMPETIÇÃO</h4>
+                    </div>
                 </div>
             </div>
             <div className="home-bodyDiv-container">

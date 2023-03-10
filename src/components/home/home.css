@@ -2,6 +2,7 @@
     height: 100vh;
     width: 100vh;
     overflow: hidden;
+    z-index: 10;
 }
 
 .home-LogoDiv-container{
@@ -10,7 +11,37 @@
     align-items: center;
 }
 
+.home-theaterVideo{
+    position: absolute;
+    top: 0;
+
+    z-index: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home-theaterShadow{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background: transparent;
+    position: absolute;
+}
+
+.home-theaterVideo video{
+    position: absolute;
+    left: -10%;
+    width: 125vw;
+    height: 125vh;
+}
+
 .home-LogoIMG-tag{
     width: 120px;
     height: 120px;
+}
+
+.home-headerTitleDiv-container{
+    position: relative;
+    z-index: 10;
 }

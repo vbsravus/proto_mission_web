@@ -1,0 +1,9 @@
+.lolleague-calendar-mainbody{
+    color: white;
+    padding: 2%;
+    padding-bottom: 5%;
+}
+
+.fc .fc-button-primary{
+    background-color: #104939 !important;
+}

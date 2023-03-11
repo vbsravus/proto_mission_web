@@ -1,5 +1,5 @@
 .lolleague-geral-mainDiv-container{
-    gap: 40px;
+
     width: 75vw;
     color: white;
     display: flex;
@@ -24,8 +24,8 @@
 .lolleague-geral-nextMatch-container p{
     position: absolute;
     right: 25px;
-    font-size: 20px;
-    top: -10px;
+    font-size: 16px;
+    top: -6px;
 }
 
 .lolleague-geral-nextMatch-container label{
@@ -37,30 +37,30 @@
 
 .lolleague-geral-nextMatch-container{
     position: relative;
-    width: 35vw;
-    height: 30vh;
+    width: 25vw;
+    height: 17vh;
     background-color: rgb(22, 22, 22);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 45% 0px;
-    border-radius: 0px 0px 10px 10px;
+    border-radius: 0px 0px 0px 0px;
     background-image: url('../../assets/versus.png');
     background-size: contain;
     background-repeat: no-repeat;
-    box-shadow: 0px 2px 3px 1px rgb(0, 0, 0);;
+    box-shadow: 3px 0px 4px 0px rgb(0, 0, 0);;
 }
 
 .lolleague-geral-inforDiv-container{
     position: relative;
     width: 30vw;
-    height: 30vh;
+    height: 17vh;
     background-color: rgb(22, 22, 22);
     background-image: url('../../assets/op.png');
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: 45% 0px;
+    background-position: 100% 0px;
     border-radius: 0px 0px 10px 0px;
-    box-shadow: 2px 2px 3px 1px rgb(0, 0, 0);;
+    box-shadow: -2px 2px 3px 1px rgb(0, 0, 0);;
 }
 
 .lolleague-geral-inforDiv-name{
@@ -71,15 +71,46 @@
 .lolleague-geral-inforDiv-extra{
     padding-left: 10px;
     font-size: 14px;
-    margin-top: 40px;
+    margin-top: 10px;
+}
+
+.lolleague-geral-inforDiv-name h2{
+    margin-top: -10px;
 }
 
 .lolleague-geral-inforDiv-name h4{
     margin-top: -20px;
 }
 
-.lolleague-geral-nextMatch-redteam, .lolleague-geral-nextMatch-blueteam, .lolleague-geral-nextMatch-teams{
+.lolleague-geral-nextMatch-teams{
     display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.lolleague-geral-nextMatch-blueteam{
+    display: flex;
+    align-items: center;
+    width: 43%;
+}
+
+.lolleague-geral-nextMatch-redteam{
+    display: flex;
+    align-items: center;
+    text-align: end;
+    width: 43%;
+}
+
+.lolleague-geral-nextMatch-redteam text{
+    font-size: 13px;
+    width: 72%;
+    margin-right: 3px;
+}
+
+.lolleague-geral-nextMatch-blueteam text{
+    font-size: 13px;
+    width: 72%;
+    margin-left: 3px;
 }
 
 .lolleague-geral-nextMatch-teams{
@@ -90,42 +121,40 @@
     height: 100%;
 }
 
+.lolleague-geral-nextMatch-redteam img{
+    width: 40px;
+    height: 40px;
+}
+
+.lolleague-geral-nextMatch-blueteam img{
+    width: 40px;
+    height: 40px;
+}
+
+.lolleague-geral-nextMatch-infoMid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 13%;
+}
+
+.lolleague-geral-nextMatch-infoMid .lolleague-geral-nextMatch-VS{
+    font-weight: bold;
+    font-size: 19px;
+}
+
 .lolleague-geral-moderatorsDiv-container{
     position: relative;
     width: 30vw;
-    height: 73vh;
+    height: 71vh;
     background-color: rgb(22, 22, 22);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 45% 0px;
-    border-radius: 0px 0px 0px 10px;
-    box-shadow: -2px 2px 3px 1px rgb(0, 0, 0);
     background-image: url('../../assets/ct.png');
     background-size: contain;
     background-repeat: no-repeat;
-}
-
-.lolleague-geral-nextMatch-redteam img{
-    width: 60px;
-    height: 60px;
-    border-radius: 60px;
-    border: 1px solid #2dc096;
-    margin-right: 6px;
-}
-
-.lolleague-geral-nextMatch-blueteam img{
-    width: 60px;
-    height: 60px;
-    border-radius: 60px;
-    border: 1px solid #2dc096;
-    margin-left: 6px;
-}
-
-.lolleague-geral-nextMatch-infoMid h4{
-    margin-top: -20px;
-    width: 65px;
-    padding-left: 2px;
-    padding-right: 2px;
 }
 
 .lolleague-geral-socialDiv-container{
@@ -145,9 +174,8 @@
 }
 
 .lolleague-geral-twitch-container{
-    width: 35vw;
-    height: 38vh;
-    box-shadow: 0px 2px 3px 1px rgb(0, 0, 0);;
+    width: 70vw;
+    height: 71vh;
 
 }
 
@@ -164,7 +192,6 @@
 
 .lolleague-geral-dividerC{
     display: flex;
-    gap: 50px;
 }
 
 .lolleague-geral-melhoresJog-container div{
@@ -190,4 +217,8 @@
     background-color: black;
     border: 1px solid #2dc096;
     margin-right: 5%;
+}
+
+.lolleague-geral-chat-container{
+    color: white;
 }

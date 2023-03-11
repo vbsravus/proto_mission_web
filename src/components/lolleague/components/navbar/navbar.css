@@ -2,10 +2,11 @@
     display: flex;
     background-color: #111111;
     width: 100%;
-    height: 140px;
+    height: 30px;
     font-family: "Shentox";
     font-weight: bold;
     color: white;
+    border-bottom: 1px solid #2dc096;
 }
 
 .navbar-thIMG-tag{
@@ -29,7 +30,7 @@
     padding-right: 5%;
 }
 
-.navbar-navigationDiv-container h2:hover{
+.navbar-navigationDiv-container h3:hover{
     color: #2dc096 ;
     cursor: pointer;
     transition: 0.12s;

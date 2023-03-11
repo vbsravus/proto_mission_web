@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 import Navbar from './components/navbar/navbar'
 import Geral from './components/geral/geral'
 import Regulamento from './components/regulamento/regulamento'
+import Calendario from './components/calendario/calendario'
 
 export default function Lolleague(params) {
     const [isGeral, setIsGeral] = useState(true)
@@ -36,6 +37,8 @@ export default function Lolleague(params) {
                     <Geral></Geral>
                 } {isRegulamento && 
                     <Regulamento></Regulamento>
+                } {isCalendario &&
+                    <Calendario></Calendario>                    
                 }
             </div>
         </div>

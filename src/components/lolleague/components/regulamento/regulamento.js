@@ -154,64 +154,68 @@ export default function Regulamento(params){
 2. PROJETO: Mordekaiser
 3. PROJETO: Renekton
 4. PROJETO: Vayne
-5. Todas as Skins: Nami
-6. Todas as Skins: Syndra
-7. Gragas Vândalo
-8. Thresh Velho Oeste
-10. Fnatic Jarvan IV
-11. Anivia Gelo Sombrio
-12. Varus Arco Celeste
-13. Brand Zumbi
-14. Nunu & Willump Zumbi
-15. iBlitzcrank
-16. Lux Elementalista
-17. Udyr Guardião Espiritual
-18. Pulsefire Ezreal
-19. DJ Sona
-20. Seraphine KDA (Todas)
-21. Vladmir Emissario da Escuridão
-22. Astronautilus
-23. Vayne Arco Celeste
-24. Ashe Velho Oeste
+5. PROJETO: Pyke
+6. Todas as Skins: Nami
+7. Todas as Skins: Syndra
+8. Gragas Vândalo
+9. Thresh Velho Oeste
+11. Fnatic Jarvan IV
+12. Anivia Gelo Sombrio
+13. Varus Arco Celeste
+14. Brand Zumbi
+15. Nunu & Willump Zumbi
+16. iBlitzcrank
+17. Lux Elementalista
+18. Udyr Guardião Espiritual
+19. Pulsefire Ezreal
+20. DJ Sona
+21. Seraphine KDA (Todas)
+22. Vladmir Emissario da Escuridão
+23. Astronautilus
+24. Vayne Arco Celeste
+25. Ashe Velho Oeste
+26. Renekton Curtindo o Verão
+27. Rek'sai Curtindo o Verão
+28. Vladmir Águas de Sentinas
 >
 ## 4. Punições
 - Punição genérica, a punição genérica é aquela punição que pode ser aplicada caso o regulamento não cubra tal caso especifico, e elas são:
-> -2 (menos dois) banimento de campeão na próxima partida.
-> -1 (menos um) banimento de campeão na próxima partida.
-> Banimento de Jogador.
-> Banimento de campeão extra para o adversário.
-> W.O (Walkover).
-> Empate.
+1. -2 (menos dois) banimento de campeão na próxima partida.
+2. -1 (menos um) banimento de campeão na próxima partida.
+3. Banimento de Jogador.
+4. Banimento de campeão extra para o adversário.
+5. W.O (Walkover).
+6. Empate.
 ### 4.1 Discord
 - Jogadores que desobedecer alguma regra do servidor, sofrerá uma das seguintes punições dependendo da severidade:
-> Punição Leve: Mute no discord e o campeão com o maior numero de partidas banido na proxima partida.
-> Punição Média: Mute no discord e -2 (menos dois) banimento de campeão na próxima partida.
-> Punição Pesada: Ban no discord e banimento da equipe do campeonato.
+1. Punição Leve: Mute no discord e o campeão com o maior numero de partidas banido na proxima partida.
+2. Punição Média: Mute no discord e -2 (menos dois) banimento de campeão na próxima partida.
+3. Punição Pesada: Ban no discord e banimento da equipe do campeonato.
 ### 4.2 Jogadores
 #### 4.2.1 Falta de Jogador titular
 - Se uma equipe não possuir os 5 integrantes necessário para a partida, sofrerá uma das seguintes punições dependendo da severidade:
-> Primeira vez: Partida é considerada W.O (Walkover), dando a vitória para a equipe adversária.
-> Segunda vez: Banimento da competição atual, entregando a vaga para a Prototype Mission.
+1. Primeira vez: Partida é considerada W.O (Walkover), dando a vitória para a equipe adversária.
+2. Segunda vez: Banimento da competição atual, entregando a vaga para a Prototype Mission.
 #### 4.2.2 Mudança de jogador após horário
 - Se ocorrer algum problema inesperado com um jogador, a equipe poderá efetuar uma troca com uma das seguintes punições dependendo da severidade:
-> Primeira e segunda vez: -2 (menos dois) banimento de campeão na partida.
-> Terceira vez: -5 (menos cinco) banimento de campeão na partida.
+1. Primeira e segunda vez: -2 (menos dois) banimento de campeão na partida.
+2. Terceira vez: -5 (menos cinco) banimento de campeão na partida.
 #### 4.2.3 Programas "Auxiliares" (Script)
 - A detecção de um jogador com um "script" resultará na seguinte punição:
-> Banimento da equipe da Prototype Mission.
+1. Banimento da equipe de todas as competições da Prototype Mission.
 ### 4.3 Comportamento
 - Punições nessa seção é apenas com provas concretas.
 #### 4.3.1 Racismo
-> Primeira vez: Banimento permanente do campeonato (Jogador).
+1. Primeira vez: Banimento permanente do campeonato (Jogador).
 #### 4.3.2 Homofobia
-> Primeira vez: Banimento permanente do campeonato (Jogador).
+1. Primeira vez: Banimento permanente do campeonato (Jogador).
 #### 4.3.3 Xenofobia
-> Primeira vez: Banimento permanente do campeonato (Jogador).
+1. Primeira vez: Banimento permanente do campeonato (Jogador).
 #### 4.3.4 Mau comportamento
 - Tudo considerado ofensivo e não está indicado nos itens acima, entra aqui.
-> Primeira vez: Advertência Verbal.
-> Segunda vez: Punição Genérica > 1, 2, 3 ou 4. Dependendo da situação.
-> Terceira vez: Banimento permanente do campeonato (Jogador).
+1. Primeira vez: Advertência Verbal.
+2. Segunda vez: Punição Genérica > 1, 2, 3 ou 4. Dependendo da situação.
+3. Terceira vez: Banimento permanente do campeonato (Jogador).
 ### 4.4 Protestos
 - Equipes podem entrar em consenso e se juntar em um protesto.
 - Protesto pode criar novos regulamentos, que serão localizados na 5 Regulamentos Protestados.
@@ -238,7 +242,7 @@ export default function Regulamento(params){
 
 
     return(
-        <div style={{paddingBottom: "8vh", paddingLeft: "2vw", paddingRight: "2vw", backgroundColor: "#0d1117"}} data-color-mode="dark">
+        <div style={{paddingBottom: "8vh", paddingLeft: "6vw", paddingRight: "6vw", backgroundColor: "#0d1117"}} data-color-mode="dark">
             <MDEditor.Markdown source={value}  />
         </div>
     )

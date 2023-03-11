@@ -46,7 +46,7 @@ export default function Geral(){
         }
       ]
     return(
-        <div className='lolleague-calendar-mainbody'>
+        <div className='lolleague-calendar-mainbody' style={{paddingTop: "2vh",paddingBottom: "8vh", paddingLeft: "6vw", paddingRight: "6vw"}}>
             <FullCalendar
                 plugins={[ dayGridPlugin, timeGridPlugin ]}
                 initialView="dayGridMonth"

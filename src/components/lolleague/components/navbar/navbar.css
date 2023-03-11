@@ -29,3 +29,13 @@
     padding-right: 5%;
 }
 
+.navbar-navigationDiv-container h2:hover{
+    color: #2dc096 ;
+    cursor: pointer;
+    transition: 0.12s;
+}
+
+.active{
+    color: #2dc096 !important;
+    text-decoration: underline;
+}

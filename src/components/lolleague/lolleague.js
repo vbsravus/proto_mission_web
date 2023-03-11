@@ -7,7 +7,7 @@ export default function Lolleague(params) {
     return(
         <div className='lolleague-mainBody-container'>
             <div>
-                <Navbar></Navbar>
+                <Navbar page='geral'></Navbar>
             </div>
             <div className='lolleague-mainContent-container'>
                 <Geral></Geral>

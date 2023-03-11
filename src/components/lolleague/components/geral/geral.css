@@ -1,5 +1,6 @@
 .lolleague-geral-mainDiv-container{
-    gap: 20px;
+    gap: 40px;
+    width: 75vw;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -92,7 +93,7 @@
 .lolleague-geral-moderatorsDiv-container{
     position: relative;
     width: 30vw;
-    height: 30vh;
+    height: 73vh;
     background-color: rgb(22, 22, 22);
     background-size: contain;
     background-repeat: no-repeat;
@@ -128,30 +129,65 @@
 }
 
 .lolleague-geral-socialDiv-container{
+    opacity: none;
     width: 30vw;
     height: 30vh;
-    background-color: red;
 }
 
 .lolleague-geral-melhoresJog-container{
+    position: relative;
+    overflow-y: scroll;
     width: 30vw;
-    height: 30vh;
-    background-color: red;
+    height: 38vh;
+    background-color: rgb(22, 22, 22);
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 0px 2px 4px 2px rgb(0, 0, 0);;
 }
 
 .lolleague-geral-twitch-container{
     width: 35vw;
-    height: 30vh;
-    background-color: red;
+    height: 38vh;
+    box-shadow: 0px 2px 3px 1px rgb(0, 0, 0);;
+
 }
 
-.lolleague-geral-moderatorsDiv-container p{
+.lolleague-geral-melhoresJog-container p{
     position: absolute;
-    right: 20px;
+    right: 25px;
     font-size: 20px;
     top: -10px;
 }
 
 .header .css-trot39-Root .e1gp86mg0{
     opacity: 0 !important;
+}
+
+.lolleague-geral-dividerC{
+    display: flex;
+    gap: 50px;
+}
+
+.lolleague-geral-melhoresJog-container div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 3%;
+    padding-right: 5%;
+}
+
+.lolleague-geral-melhoresJog-container div label{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.lolleague-geral-melhoresJog-container div label img{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    background-color: black;
+    border: 1px solid #2dc096;
+    margin-right: 5%;
 }

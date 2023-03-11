@@ -57,7 +57,7 @@ export default function Geral(){
                         onPlaying={function noRefCheck(){}}
                         onReady={function noRefCheck(){}}
                         onSeek={function noRefCheck(){}}
-                        channel="lec"
+                        channel="prototype_mission"
                         width={"70vw"}
                         height={"71vh"}
                     />

@@ -6,6 +6,7 @@ import Navbar from './components/navbar/navbar'
 import Geral from './components/geral/geral'
 import Regulamento from './components/regulamento/regulamento'
 import Calendario from './components/calendario/calendario'
+import Partidas from './components/partidas/partidas'
 
 export default function Lolleague(params) {
     const [isGeral, setIsGeral] = useState(true)
@@ -39,6 +40,9 @@ export default function Lolleague(params) {
                     <Regulamento></Regulamento>
                 } {isCalendario &&
                     <Calendario></Calendario>                    
+                } {
+                    isResultados &&
+                    <Partidas></Partidas>
                 }
             </div>
         </div>

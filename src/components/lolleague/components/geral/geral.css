@@ -101,13 +101,13 @@
     width: 43%;
 }
 
-.lolleague-geral-nextMatch-redteam text{
+.lolleague-geral-nextMatch-redteam div{
     font-size: 13px;
     width: 72%;
     margin-right: 3px;
 }
 
-.lolleague-geral-nextMatch-blueteam text{
+.lolleague-geral-nextMatch-blueteam div{
     font-size: 13px;
     width: 72%;
     margin-left: 3px;

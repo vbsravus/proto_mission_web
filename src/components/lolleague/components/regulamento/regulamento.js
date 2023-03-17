@@ -177,6 +177,7 @@ export default function Regulamento(params){
 26. Renekton Curtindo o Verão
 27. Rek'sai Curtindo o Verão
 28. Vladmir Águas de Sentinas
+29. Sion Gelo Sombrio
 >
 ## 4. Punições
 - Punição genérica, a punição genérica é aquela punição que pode ser aplicada caso o regulamento não cubra tal caso especifico, e elas são:

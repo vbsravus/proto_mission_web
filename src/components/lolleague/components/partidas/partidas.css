@@ -1,0 +1,320 @@
+.partidas-container-mainbody{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+
+.partidas-matchday-containerbody{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-left: 2%;
+    margin-right: 2%;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px 1px #000;
+    z-index: 0;
+    position: relative;
+    height: 80px;
+    background: linear-gradient(90deg, rgba(0,68,82,1) 30%,  rgba(106,36,36,1) 80%);
+}
+
+.partidas-blueteam-containerbody, .partidas-redteam-containerbody{
+    display: flex;
+    width: 20%;
+}
+
+.partidas-redteam-containerbody{
+    justify-content: end;
+}
+
+.partidas-blueteam-containerbody img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+
+
+    z-index: 1;
+}
+
+.partidas-redteam-containerbody img{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+
+
+.partidas-info-containerbody{
+    z-index: 1;
+    position: relative;
+    width: 43%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+
+}
+
+.partidas-info-containerbody label{
+    width: 53%;
+}
+
+.partidas-blueteam-frag{
+    width: 2%;
+    text-align: right;
+}
+
+.partidas-redteam-frag{
+    width: 2%;
+    text-align: left;
+}
+
+.partidas-info-labeltime{
+    width: 150px;
+    font-weight: bolder;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.partidas-info-blueLogo{
+    width: 160px;
+    height: 80px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.partidas-info-redLogo{
+    width: 160px;
+    height: 80px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.partidas-extrainfo-tables{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(48, 48, 48);
+    margin-left: 2%;
+    margin-right: 2%;
+    box-shadow: 0px 2px 4px 1px #000;
+}
+
+.partidas-extrainfo-visual-teams{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-image: url('../../../../lol_assets/13.5.1/item/placar1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    border-bottom: 1px solid #7b5929;
+}
+
+.partidas-extrainfo-blueteam-img{
+    display: flex;
+    flex-direction: column;
+}
+
+.partidas-extrainfo-blueteam-img img{
+    position: relative;
+
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+
+}
+
+.partidas-extrainfo-blueteam{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 78px;
+    position: relative;
+}
+
+.partidas-extrainfo-blueteam-player{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.partidas-extrainfo-blueteam h4{
+    gap: 20px;
+    width: 50px;
+    text-align: center;
+}
+
+.partidas-extrainfo-blueteam-player-champ{
+    width: 60px;
+    height: 60px;
+}
+
+.partidas-extrainfo-blueteam-player-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+.partidas-extrainfo-blueteam-player-item img{
+    width: 40px;
+    height: 40px;
+}
+
+.partidas-extrainfo-blueteam-player-item-vision{
+    position: relative;
+    display: flex;
+    
+}
+
+.partidas-extrainfo-blueteam-player-item-vision label{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: bolder;
+}
+
+.partidas-extrainfo-redteam-img{
+    display: flex;
+
+}
+
+.partidas-extrainfo-redteam-img img{
+    position: relative;
+
+    width: 60px;
+    height: 60px;
+    z-index: 1;
+
+}
+
+.partidas-extrainfo-redteam{
+    display: flex;
+    flex-direction: column;
+    padding-top: 78px;
+    gap: 15px;
+    position: relative;
+}
+
+.partidas-extrainfo-redteam-player{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 20px;
+}
+
+.partidas-extrainfo-redteam h4{
+    gap: 20px;
+    width: 50px;
+    text-align: center;
+}
+
+.partidas-extrainfo-redteam-player-champ{
+    width: 60px;
+    height: 60px;
+}
+
+.partidas-extrainfo-redteam-player-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+    width: 300px;
+}
+
+.partidas-extrainfo-redteam-player-item img{
+    width: 40px;
+    height: 40px;
+}
+
+.partidas-extrainfo-redteam-player-item-vision{
+    position: relative;
+    display: flex;
+}
+
+.partidas-extrainfo-redteam-player-item-vision label{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-weight: bolder;
+}
+
+.partidas-extrainfo-teamfull{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: -53%;
+    top: 2%;
+}
+
+.partidas-extrainfo-teamfull h4{
+    width: 36%;
+    height: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.partidas-extrainfo-teamfull h4 img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    
+}
+
+.partidas-extrainfo-teamfull-red{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -40%;
+    top: 2%;
+}
+
+
+.partidas-extrainfo-teamfull-red h4{
+    height: 20px;
+    width: 32%;
+    display: flex;
+}
+
+.partidas-extrainfo-teamfull-red h4 img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+
+.hide{
+    display: none;
+}
+
+.show{
+    display: flex;
+}
+
+.partidas-extrainfo-blueteam-names{
+    position: absolute;
+    top: 0%;
+    font-size: 13px;
+}
+
+.partidas-extrainfo-redteam-names{
+    position: absolute;
+    top: 0%;
+    font-size: 13px;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    right: 0%;
+}

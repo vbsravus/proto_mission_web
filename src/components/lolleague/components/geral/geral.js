@@ -18,15 +18,15 @@ export default function Geral(){
                     <div className='lolleague-geral-nextMatch-teams'>
                         <div className='lolleague-geral-nextMatch-blueteam'>
                             <img src={require('../../assets/testimage1.png')}/>
-                            <text>Prototype Mission Belunga Edition</text>
+                            <div>Prototype Mission Belunga Edition</div>
                             
                         </div>
                         <div className='lolleague-geral-nextMatch-infoMid'>
-                            <text className='lolleague-geral-nextMatch-VS'>VS</text>
-                            <text>19:20</text>
+                            <div className='lolleague-geral-nextMatch-VS'>VS</div>
+                            <div>19:20</div>
                         </div>
                         <div className='lolleague-geral-nextMatch-redteam'>
-                            <text>Raky Gaming</text>
+                            <div>Raky Gaming</div>
                             <img src={require('../../assets/testimage2.png')}/>
                         </div>
                     </div>

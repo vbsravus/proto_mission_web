@@ -27,12 +27,12 @@ export default function NavBottomBar() {
                 <div className='bottomBar-navigation-ThriveLeagueBR'  onClick={() => window.location.href = '/br/thrive'}>
 
                     <img className='bottomBar-thIMG-tag' src={require('./assets/TH.png')}/>
-                    <p>Thrive League BR</p>
+                    <p>Thrive BR</p>
                 </div>
                 <div className='bottomBar-navigation-ThriveLeagueNA'>
 
                     <img className='bottomBar-thIMG-tag' src={require('./assets/TH.png')}/>
-                    <p>Thrive League NA</p>
+                    <p>Thrive NA</p>
                 </div>
             </div>
             <div className="bottomBar-social-container">

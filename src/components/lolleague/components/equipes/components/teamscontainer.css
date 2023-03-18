@@ -1,0 +1,44 @@
+.teamscontainers-mainbody{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 96vh;
+    width: 100%;
+}
+
+.team-div-teamcontainer{
+    height: 80px;
+    width: 100%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: rgb(22, 22, 22);
+    box-shadow: 2px 0px 4px 4px #0c0c0c;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 2%;
+}
+
+.teamcontainers-mainbodymap{
+    padding-bottom: 16%;
+}
+
+.activatedBack{
+    height: 80px;
+    width: 100%;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: rgb(56, 56, 56);
+    box-shadow: 2px 0px 4px 4px #0c0c0c;
+    color: white;
+    font-weight: bolder;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 2%;
+}

@@ -7,6 +7,7 @@ import Geral from './components/geral/geral'
 import Regulamento from './components/regulamento/regulamento'
 import Calendario from './components/calendario/calendario'
 import Partidas from './components/partidas/partidas'
+import Equipes from './components/equipes/equipes'
 
 export default function Lolleague(params) {
     const [isGeral, setIsGeral] = useState(true)
@@ -34,15 +35,15 @@ export default function Lolleague(params) {
             </div>
             <div className='lolleague-mainContent-container'>
                 { isGeral &&
-
                     <Geral></Geral>
                 } {isRegulamento && 
                     <Regulamento></Regulamento>
                 } {isCalendario &&
                     <Calendario></Calendario>                    
-                } {
-                    isResultados &&
+                } {isResultados &&
                     <Partidas></Partidas>
+                } {isEquipes &&
+                    <Equipes></Equipes>
                 }
             </div>
         </div>

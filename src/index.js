@@ -7,6 +7,8 @@ import Home from './components/home/home'
 import Lolleague from './components/lolleague/lolleague'
 import NavBottomBar from './components/navigation_bottombar/navigation_bottombar'
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <BrowserRouter>

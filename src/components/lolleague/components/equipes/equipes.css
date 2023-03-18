@@ -1,0 +1,163 @@
+
+.equipes-teamcontainer-mainfile{
+    width: 27%;
+    background-color: rgb(50, 50, 50);
+}
+
+.equipes-mainbody-container{
+    display: flex;
+}
+
+.teamscontainers-mainbody{
+    height: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.equipes-phasenavbar-mainbody{
+    height: 30px;
+    width: 73%;
+    background-color: rgb(78, 78, 78);
+}
+
+.phasenavbar-label-div{
+    display: flex;
+    height: 100%;
+    gap: 60px;
+    font-size: 19px;
+    font-weight: bolder;
+    align-items: center;
+    margin-left: 5%;
+}
+
+.equipes-showinfo-mainbody{
+    height: 90vh;
+    width: 100%;
+    overflow: scroll;
+}
+
+.team-mainbody-file{
+    width: 100%;
+    height: 100%;
+}
+
+.team-background-top{
+    position: relative;
+}
+
+.team-background-image{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    border-bottom: 1px solid #2dc096;
+
+}
+
+.team-logo-image{
+    position: absolute;
+    left: 30px;
+    bottom: -30px;
+    width: 80px;
+    height: 80px;
+    background-color: rgb(14, 14, 14);
+    border-radius: 80px;
+    border: 1px solid #2dc096;
+    box-shadow: 0px 4px 2px 2px #1d1d1d;
+}
+
+.team-name-back{
+    position: absolute;
+    left: 120px;
+    bottom: -15px;
+    filter: invert(1) grayscale(1);
+    mix-blend-mode: difference;
+}
+
+.team-navbar-maincontainer{
+    margin-left: 15%;
+    display: flex;
+    gap: 50px;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+
+}
+
+.isGeral-team-mainbody{
+    color: white;
+    width: 100%;
+    height: 60%;
+}
+
+.isGeral-team-socialmedia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 7%;
+}
+
+.isGeral-team-socialmedia div{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.isGeral-team-socialmedia h3{
+    text-decoration: underline;
+}
+
+.isGeral-team-status{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.isGeral-team-status h4{
+    font-weight: 100;
+}
+
+.isGeral-team-status div{
+    background-color: rgb(32, 32, 32);
+    box-shadow: 4px 2px 4px 4px #000;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid #2dc096
+}
+
+.isJogadores-player-container{
+    display: flex;
+    background-color: #3c3c3c;
+    box-shadow: 2px 2px 4px 4px #000;
+    border: #2dc096 1px solid;
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    padding: 3%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    color: white;
+}
+
+.isJogadores-player-container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.isJogadores-player-lane img{
+    width: 34px;
+    height: 34px;
+}
+
+.isJogadores-maincontainer{
+    padding-bottom: 5%;
+    padding-top: 2%;
+}

@@ -1,0 +1,772 @@
+[
+    {
+        "id": 0,
+        "teamName": "RAKY GAMING",
+        "teamTag": "RAKY",
+        "teamTwitter": "https://twitter.com/rakygaming",
+        "teamDiscord": "https://discord.gg",
+        "teamLogo": "https://raw.githubusercontent.com/vbsravus/proto_mission_archives/main/raky-subt-b.png",
+        "teamBack": "https://pbs.twimg.com/profile_banners/1613710966608257024/1673574179/1500x500",
+        "staff": [
+            "Neyal",
+            "Leandro",
+            "PimGado",
+            "Neyal"
+        ],
+        "players": [
+            {
+                "summoner": "igor",
+                "lane": "TOP"
+            },
+            {
+                "summoner": "mamad",
+                "lane": "JNG"
+            },
+            {
+                "summoner": "magro",
+                "lane": "MID"
+            },
+            {
+                "summoner": "zero",
+                "lane": "ADC"
+            },
+            {
+                "summoner": "shiro",
+                "lane": "UTI"
+            }
+        ],
+        "reserve": [
+            {
+                "summoner": "fazoele",
+                "lane": "MID"
+            },
+            {
+                "summoner": "disney",
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner":null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            }
+        ],
+        "score": [
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "teamName": "RAKY GAMING TRAD",
+        "teamTag": "RAKY",
+        "teamTwitter": "https://twitter.com/rakygaming",
+        "teamDiscord": "https://discord.gg",
+        "teamLogo": "https://raw.githubusercontent.com/vbsravus/proto_mission_archives/main/raky-subt-b.png",
+        "teamBack": "https://pbs.twimg.com/profile_banners/1613710966608257024/1673574179/1500x500",
+        "staff": [
+            "Neyal",
+            "Leandro",
+            "PimGado",
+            "Neyal"
+        ],
+        "players": [
+            {
+                "summoner": "igor",
+                "lane": "TOP"
+            },
+            {
+                "summoner": "mamad",
+                "lane": "JNG"
+            },
+            {
+                "summoner": "magro",
+                "lane": "MID"
+            },
+            {
+                "summoner": "zero",
+                "lane": "ADC"
+            },
+            {
+                "summoner": "shiro",
+                "lane": "UTI"
+            }
+        ],
+        "reserve": [
+            {
+                "summoner": "fazoele",
+                "lane": "MID"
+            },
+            {
+                "summoner": "disney",
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner":null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            }
+        ],
+        "score": [
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "teamName": "JUPITER KING",
+        "teamTag": "JKG",
+        "teamTwitter": "https://twitter.com/jkg_esports",
+        "teamDiscord": "https://discord.gg",
+        "teamLogo": "https://jupiterking.com.br/wp-content/uploads/2021/11/icone-fundo-transparente.png",
+        "teamBack": "https://pbs.twimg.com/profile_banners/1461421329945698306/1650832853/1500x500",
+        "staff": [
+            "SFAASD",
+            "ASFSADF",
+            "XCVZ",
+            "ZS"
+        ],
+        "players": [
+            {
+                "summoner": "igor",
+                "lane": "TOP"
+            },
+            {
+                "summoner": "JKG yCotoko",
+                "lane": "JNG"
+            },
+            {
+                "summoner": "magro",
+                "lane": "MID"
+            },
+            {
+                "summoner": "zero",
+                "lane": "ADC"
+            },
+            {
+                "summoner": "shiro",
+                "lane": "UTI"
+            }
+        ],
+        "reserve": [
+            {
+                "summoner": "fazoele",
+                "lane": "MID"
+            },
+            {
+                "summoner": "disney",
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner":null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            }
+        ],
+        "score": [
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "teamName": "PROTOTYPE MISSION",
+        "teamTag": "PRO",
+        "teamTwitter": "https://twitter.com/proto_mission",
+        "teamDiscord": "https://discord.gg",
+        "teamLogo": "https://raw.githubusercontent.com/vbsravus/proto_mission_archives/main/PrototypeMissionLogo.png",
+        "teamBack": "https://pbs.twimg.com/profile_banners/1631740755025731584/1678573460/1500x500",
+        "staff": [
+            "Ravus",
+            "Ravus",
+            "Ensabuado",
+            "Ravus"
+        ],
+        "players": [
+            {
+                "summoner": "PRO Degel",
+                "lane": "TOP"
+            },
+            {
+                "summoner": "PRO Redevil",
+                "lane": "JNG"
+            },
+            {
+                "summoner": "PRO Hempsy",
+                "lane": "MID"
+            },
+            {
+                "summoner": "PRO Dog",
+                "lane": "ADC"
+            },
+            {
+                "summoner": "PRO Cat",
+                "lane": "UTI"
+            }
+        ],
+        "reserve": [
+            {
+                "summoner": "PRO Golstar",
+                "lane": "MID"
+            },
+            {
+                "summoner": "PRO Ensabuado",
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner":null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            }
+        ],
+        "score": [
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "teamName": "RAKY GAMING",
+        "teamTag": "RAKY",
+        "teamTwitter": "https://twitter.com/rakygaming",
+        "teamDiscord": "https://discord.gg",
+        "teamLogo": "https://raw.githubusercontent.com/vbsravus/proto_mission_archives/main/raky-subt-b.png",
+        "teamBack": "https://pbs.twimg.com/profile_banners/1613710966608257024/1673574179/1500x500",
+        "staff": [
+            "Neyal",
+            "Leandro",
+            "PimGado",
+            "Neyal"
+        ],
+        "players": [
+            {
+                "summoner": "igor",
+                "lane": "TOP"
+            },
+            {
+                "summoner": "mamad",
+                "lane": "JNG"
+            },
+            {
+                "summoner": "magro",
+                "lane": "MID"
+            },
+            {
+                "summoner": "zero",
+                "lane": "ADC"
+            },
+            {
+                "summoner": "shiro",
+                "lane": "UTI"
+            }
+        ],
+        "reserve": [
+            {
+                "summoner": "fazoele",
+                "lane": "MID"
+            },
+            {
+                "summoner": "disney",
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner":null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            }
+        ],
+        "score": [
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "teamName": "RAKY GAMING TRAD",
+        "teamTag": "RAKY",
+        "teamTwitter": "https://twitter.com/rakygaming",
+        "teamDiscord": "https://discord.gg",
+        "teamLogo": "https://raw.githubusercontent.com/vbsravus/proto_mission_archives/main/raky-subt-b.png",
+        "teamBack": "https://pbs.twimg.com/profile_banners/1613710966608257024/1673574179/1500x500",
+        "staff": [
+            "Neyal",
+            "Leandro",
+            "PimGado",
+            "Neyal"
+        ],
+        "players": [
+            {
+                "summoner": "igor",
+                "lane": "TOP"
+            },
+            {
+                "summoner": "mamad",
+                "lane": "JNG"
+            },
+            {
+                "summoner": "magro",
+                "lane": "MID"
+            },
+            {
+                "summoner": "zero",
+                "lane": "ADC"
+            },
+            {
+                "summoner": "shiro",
+                "lane": "UTI"
+            }
+        ],
+        "reserve": [
+            {
+                "summoner": "fazoele",
+                "lane": "MID"
+            },
+            {
+                "summoner": "disney",
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner":null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            }
+        ],
+        "score": [
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "teamName": "RAKY GAMING",
+        "teamTag": "RAKY",
+        "teamTwitter": "https://twitter.com/rakygaming",
+        "teamDiscord": "https://discord.gg",
+        "teamLogo": "https://raw.githubusercontent.com/vbsravus/proto_mission_archives/main/raky-subt-b.png",
+        "teamBack": "https://pbs.twimg.com/profile_banners/1613710966608257024/1673574179/1500x500",
+        "staff": [
+            "Neyal",
+            "Leandro",
+            "PimGado",
+            "Neyal"
+        ],
+        "players": [
+            {
+                "summoner": "igor",
+                "lane": "TOP"
+            },
+            {
+                "summoner": "mamad",
+                "lane": "JNG"
+            },
+            {
+                "summoner": "magro",
+                "lane": "MID"
+            },
+            {
+                "summoner": "zero",
+                "lane": "ADC"
+            },
+            {
+                "summoner": "shiro",
+                "lane": "UTI"
+            }
+        ],
+        "reserve": [
+            {
+                "summoner": "fazoele",
+                "lane": "MID"
+            },
+            {
+                "summoner": "disney",
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner":null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            }
+        ],
+        "score": [
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "teamName": "RAKY GAMING TRAD",
+        "teamTag": "RAKY",
+        "teamTwitter": "https://twitter.com/rakygaming",
+        "teamDiscord": "https://discord.gg",
+        "teamLogo": "https://raw.githubusercontent.com/vbsravus/proto_mission_archives/main/raky-subt-b.png",
+        "teamBack": "https://pbs.twimg.com/profile_banners/1613710966608257024/1673574179/1500x500",
+        "staff": [
+            "Neyal",
+            "Leandro",
+            "PimGado",
+            "Neyal"
+        ],
+        "players": [
+            {
+                "summoner": "igor",
+                "lane": "TOP"
+            },
+            {
+                "summoner": "mamad",
+                "lane": "JNG"
+            },
+            {
+                "summoner": "magro",
+                "lane": "MID"
+            },
+            {
+                "summoner": "zero",
+                "lane": "ADC"
+            },
+            {
+                "summoner": "shiro",
+                "lane": "UTI"
+            }
+        ],
+        "reserve": [
+            {
+                "summoner": "fazoele",
+                "lane": "MID"
+            },
+            {
+                "summoner": "disney",
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner":null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            }
+        ],
+        "score": [
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "teamName": "RAKY GAMING",
+        "teamTag": "RAKY",
+        "teamTwitter": "https://twitter.com/rakygaming",
+        "teamDiscord": "https://discord.gg",
+        "teamLogo": "https://raw.githubusercontent.com/vbsravus/proto_mission_archives/main/raky-subt-b.png",
+        "teamBack": "https://pbs.twimg.com/profile_banners/1613710966608257024/1673574179/1500x500",
+        "staff": [
+            "Neyal",
+            "Leandro",
+            "PimGado",
+            "Neyal"
+        ],
+        "players": [
+            {
+                "summoner": "igor",
+                "lane": "TOP"
+            },
+            {
+                "summoner": "mamad",
+                "lane": "JNG"
+            },
+            {
+                "summoner": "magro",
+                "lane": "MID"
+            },
+            {
+                "summoner": "zero",
+                "lane": "ADC"
+            },
+            {
+                "summoner": "shiro",
+                "lane": "UTI"
+            }
+        ],
+        "reserve": [
+            {
+                "summoner": "fazoele",
+                "lane": "MID"
+            },
+            {
+                "summoner": "disney",
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner":null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            }
+        ],
+        "score": [
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "teamName": "RAKY GAMING TRAD",
+        "teamTag": "RAKY",
+        "teamTwitter": "https://twitter.com/rakygaming",
+        "teamDiscord": "https://discord.gg",
+        "teamLogo": "https://raw.githubusercontent.com/vbsravus/proto_mission_archives/main/raky-subt-b.png",
+        "teamBack": "https://pbs.twimg.com/profile_banners/1613710966608257024/1673574179/1500x500",
+        "staff": [
+            "Neyal",
+            "Leandro",
+            "PimGado",
+            "Neyal"
+        ],
+        "players": [
+            {
+                "summoner": "igor",
+                "lane": "TOP"
+            },
+            {
+                "summoner": "mamad",
+                "lane": "JNG"
+            },
+            {
+                "summoner": "magro",
+                "lane": "MID"
+            },
+            {
+                "summoner": "zero",
+                "lane": "ADC"
+            },
+            {
+                "summoner": "shiro",
+                "lane": "UTI"
+            }
+        ],
+        "reserve": [
+            {
+                "summoner": "fazoele",
+                "lane": "MID"
+            },
+            {
+                "summoner": "disney",
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner":null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            },
+            {
+                "summoner": null,
+                "lane": "FIL"
+            }
+        ],
+        "score": [
+            {
+                "vic": 15,
+                "los": 5
+            },
+            {
+                "vic": 0,
+                "los": 0
+            },
+            {
+                "vic": 0,
+                "los": 0
+            }
+        ]
+    }
+]

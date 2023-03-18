@@ -8,14 +8,9 @@ import Lolleague from './components/lolleague/lolleague'
 import NavBottomBar from './components/navigation_bottombar/navigation_bottombar'
 import Test from './test'
 import ReactGA from 'react-ga';
-import {useEffect} from 'react'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const TRACKING_ID = "G-N3TTHRE5ZC"; // OUR_TRACKING_ID
-
-useEffect(() => {
-  ReactGA.pageview(window.location.pathname + window.location.search);
-}, []);
 
 ReactGA.initialize(TRACKING_ID);
 root.render(

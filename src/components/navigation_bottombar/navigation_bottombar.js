@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import './navigation_bottombar.css'
 import { BsTwitch, BsDiscord, BsTwitter } from "react-icons/bs";
+import useAnalyticsEventTracker from './useAnalyticsEventTracker';
+
 
 export default function NavBottomBar() {
 
@@ -17,13 +19,13 @@ export default function NavBottomBar() {
         }, 1000);
         return () => clearInterval(intervalId);
     }, []);
-
+    const gaEventTracker = useAnalyticsEventTracker('NAVBAR_bottom')
     return(
         <div className="bottomBar-mainDiv-container">
             <div className="bottomBar-LogoDiv-container" onClick={() => window.location.href = '/'}>
                 <img className='bottomBar-LogoIMG-tag' src={require('./assets/PrototypeMissionLogo.png')}/>
             </div>
-            <div className="bottomBar-bodyDiv-container">
+            <div className="bottomBar-bodyDiv-container" onClick={() => gaEventTracker('Navegação das Ligas')}>
                 <div className='bottomBar-navigation-ThriveLeagueBR'  onClick={() => window.location.href = '/br/thrive'}>
 
                     <img className='bottomBar-thIMG-tag' src={require('./assets/TH.png')}/>

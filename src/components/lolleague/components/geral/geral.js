@@ -5,10 +5,11 @@ import { BsTwitch, BsDiscord, BsTwitter } from "react-icons/bs";
 import WidgetBot from '@widgetbot/react-embed'
 import { TwitchPlayer, TwitchChat } from 'react-twitch-embed';
 import { useState } from 'react';
+import useAnalyticsEventTracker from './useAnalyticsEventTracker';
 
 export default function Geral(){
     const [isOnline, setIsOnline] = useState(null)
-
+    const gaEventTracker = useAnalyticsEventTracker('Engajamento Twitch')
     return(
         <div className='lolleague-geral-dividerC'>
             <div className='lolleague-geral-mainDiv-container'>
@@ -43,8 +44,8 @@ export default function Geral(){
                         <label><label><img src={require('../../assets/testimage1.png')}/>Neyal</label><label>7.70</label></label>
                     </div>
                 </div> */}
-                <div className='lolleague-geral-twitch-container'>
-                    <TwitchPlayer
+                <div className='lolleague-geral-twitch-container' >
+                    <TwitchPlayer onClick={() => gaEventTracker("Click")}
                         autoplay
                         muted
                         onCaptions={function noRefCheck(){}}

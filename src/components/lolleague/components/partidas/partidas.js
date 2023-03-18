@@ -25,6 +25,7 @@ export default function Partidas(params) {
         document.getElementById(matchId).className = document.getElementById(matchId).className === "partidas-extrainfo-tables" ? "hide" : "partidas-extrainfo-tables"
     }
 
+
     return (
         <div className='partidas-container-mainbody'>
             {chavesPartidas &&
